@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Food Recipes</title>
+    <style>
+	body::before{
+		content:"";
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color:rgba(0,0,0,0.6);
+		z-index:-1;
+        }
+
+        body {
+            background-image: url('Background.jpg');
+	    background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+        }
+
+        h3 {
+            color: #fff;
+        }
+
+        nav {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        h1 {
+            color: White;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #017bf5;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #01508b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h3>
+            <a href="index.html">HOME</a>
+            <a href="recipe.html">RECIPES CATALOGUE</a>
+        </h3>
+    </nav>
+	
+   <br>
+
+    <div>
+        <h1>Contact Us</h1>
+
+        <form method="Post>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+	    <label for="Tel">Your Contact Number:</label>
+            <input type="Con_Num" id="Con_Num" name="Con_Num" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <Button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
